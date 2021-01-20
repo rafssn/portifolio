@@ -1,0 +1,140 @@
+.body{
+    background-color: #202028;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.container{
+    margin-top: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #252733;
+    width: 70%;
+    max-width: 800px;
+    color: #f0f8ff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 320px;
+    margin-bottom: 20px;
+}
+
+.rounded {
+    border-radius: 100%;
+    width: 150px;
+    border: 7px solid #993399;
+}
+
+.pulse {
+    animation: pulse 0.9s infinite;
+    margin: 0 auto;
+    display: table;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+
+  .info{
+      padding-top: 16px;
+  }
+
+  .info h1{
+      margin-bottom: 15px;
+      font-size: 35px;
+  }
+
+  .info p{
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .stacks img{
+      width: 30px;
+      padding: 10px;
+      padding-top: 15px;
+  }
+
+  .curriculo{
+    background-color: #993399;
+    width: 180px;
+    height: 40px;
+    border: 0 solid #993399 ;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .curriculo a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .curriculo img{
+    width: 20px;
+    color: white;
+    margin-left: 10px;
+  }
+
+  .curriculo:hover{
+    opacity: 0.3;
+    border: 1px solid #ffffff
+  }
+
+  .resume{
+    font-size: 18px;
+    line-height: 29px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+  }
+
+  .github{
+    width: 80%;
+    min-width: 300px;
+    margin-top: 40px;
+    max-width: 550px;
+  }
+  
+  .footer{
+    margin-top: 20px;
+  }
+
+  .footer h4{
+    font-size: 18px;
+    margin-bottom: 17px;
+  }
+
+  .footer img{
+    width: 27px;
+    margin: 10px;
+    margin-top: 0;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
